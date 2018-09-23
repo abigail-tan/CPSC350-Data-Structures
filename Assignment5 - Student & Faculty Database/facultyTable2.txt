@@ -1,0 +1,3 @@
+1000|John Doe|Prof|Science|1|5000
+1002|Jane Smith|Professor|Computer Science|2|5002, 7043
+1004|Ellie Mae|TA|Art|1|6400
