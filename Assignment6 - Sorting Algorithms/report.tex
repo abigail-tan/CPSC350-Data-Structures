@@ -1,0 +1,20 @@
+
+\documentclass[12pt,notitlepage]{IEEEtran}
+\begin{document}
+\title{Assignment6}
+\author{Abby Tan}
+\date{\today}
+
+\maketitle
+
+\setlength{\parindent}{10ex}
+\today
+\section{Introduction}
+In this assignment, four different sorting were implemented: Bubble Sort, Insertion Sort, Shell Sort, Quick Sort. 
+\section{Results and Conclusion}
+Before testing the algoritms, my assumptions for performance times were that Bubble Sort would be the slowest while Quick Sort would be the fastest, followed by Shell Sort then Insertion Sort. After testing the algorithms with a data set of 10,000 values and another set of 100,000 values, I found that the time differences between the algorithms were very distinct, and my assumption were correct. With the data set of 10,000, Bubble Sort performed the slowest with a 0.296875 second time difference, and Quick Sort was the fastest with a 0 second time difference. Shell Sort was 2nd fastest with a 0.01525 second time difference, and Insertion Sort was 3rd fastest with a 0.09375 second time difference. With the data set of 100,000, the results were the same with the following time differences: Bubble Sort with a 36.0937 second time difference, Insertion Sort with a 8.7344 second time difference, Shell Sort with a 0.0469 time difference, Quick Sort with a 0.0156 second time difference.
+\par
+In picking one algorithm over another to sort any data, Quick Sort is always a standard, safe choice as it is an excellent general-purpose sorting algorithm. However, with smaller data sets, I believe that Bubble Sort is more worth your time since it's so quick to implement and has the full capability to get the job done. Furthermore, Insertion Sort would be a better choice if the data set is already partially sorted or if the data set is small, and although Shell Sort is a variation of Insertion Sort, it is a better algorithm to use when the data set requires more swapping of indexes that are far apart. It's also more beneficial since it runs faster than Insertion Sort and Bubble Sort.
+\par
+Regarding other logistics like programming language and shortcomings, writing this code in C++ was a lot easier to implement than what it would have been compared to other languages like Python because of elements like multiple inheritance and header files. When it comes to shortcomings, the amount of data sets needed to test and the amount of data in those sets were not given and could potential cause others that perform this project inaccuracy in their results, and the ways about measuring the different algorithms through clock times could also be improved to result in more accurate results. 
+\end{document}

@@ -1,0 +1,33 @@
+
+With 10,000 values, 
+BUBBLE SORT
+Start time: 0.03125
+End time: 0.328125
+Time Difference:
+
+INSERTION SORT
+Start time: 0.328125 
+End time: 0.421875
+Time Difference:
+
+QUICKSORT
+Start time: 0.421875
+End time: 0.421875
+Time Difference:
+
+
+With 100,000
+BUBBLE SORT
+Start time: 0.0625
+End time: 36.1562
+Time Difference:
+
+INSERTION SORT
+Start time: 36.1562
+End time: 44.8906
+Time Difference:
+
+QUICKSORT
+Start time: 44.8906
+End time: 44.9062
+Time Difference:
